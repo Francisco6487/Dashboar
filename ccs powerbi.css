@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #003049;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-contenedor {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.dashboard {
+  margin-bottom: 3rem;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.dashboard h2 {
+  margin-top: 0;
+  color: #0077b6;
+}
+
+.dashboard p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: #003049;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
