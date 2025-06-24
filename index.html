@@ -38,9 +38,40 @@
     </section>
 
   </main>
-<a href="https://francisco6487.github.io/Portafolio" style="position:fixed; bottom:20px; left:20px; background:#222; color:#fff; padding:10px 15px; border-radius:5px; text-decoration:none; box-shadow:0 0 5px rgba(0,0,0,0.5);">
-  ← Volver al Portfolio
-</a>
+<a href="https://francisco6487.github.io/Portafolio" class="volver-portfolio">← Volver al Portfolio</a>
+
+<style>
+  .volver-portfolio {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(34, 34, 34, 0.7);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease, background 0.3s ease;
+    opacity: 0.5;
+    z-index: 1000;
+  }
+
+  .volver-portfolio:hover {
+    opacity: 1;
+    background: #222;
+  }
+
+  @media (max-width: 600px) {
+    .volver-portfolio {
+      font-size: 12px;
+      padding: 8px 12px;
+      bottom: 15px;
+      left: 15px;
+      opacity: 0.9;
+    }
+  }
+</style>
   <footer>
     <p>&copy; 2025 Francisco Dalla Rizza | <a href="mailto:francisco.dallarizza@gmail.com">Contacto</a></p>
   </footer>
